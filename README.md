@@ -25,7 +25,7 @@
 
 ```text
 book_sales_stream_batch/
-│
+├── daly_sales.jsonl            # Локальное хранилище сырых данных (имитацая Data Lake)
 ├── app.py                      # Flask API сервис
 ├── stream_job.py               # Потоковый обработчик
 ├── batch_job.py                # Пакетный обработчик данных
